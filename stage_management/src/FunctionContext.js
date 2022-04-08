@@ -1,11 +1,10 @@
 import React from 'react'
 import { useTheme, useThemeUpdate } from './ThemeContext'
 
-export default function FunctionContextComponent () {
+export default function ContextComponent () {
     const dartkTheme = useTheme();
     const toggleTheme = useThemeUpdate();
 
-    
     const themeStyles = {
         backgroundColor: dartkTheme ? '#333' : '#CCC',
         color: dartkTheme ? '#CCC' : '#333',
@@ -16,7 +15,7 @@ export default function FunctionContextComponent () {
     return (
         <>
             <button onClick={toggleTheme}>Toggle Theme</button>
-            <div style={themeStyles} >Function Theme</div>
+            <div style={themeStyles} ></div>
         </>
     )
 }

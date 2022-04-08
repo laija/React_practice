@@ -1,5 +1,5 @@
 import React from 'react'
-import FunctionContextComponent from './FunctionContext';
+import ContextComponent from './FunctionContext';
 import { ThemeProvider } from './ThemeContext';
 
 export default function App () {
@@ -7,7 +7,7 @@ export default function App () {
   return (
     <>
       <ThemeProvider>
-        <FunctionContextComponent/> 
+        <ContextComponent/> 
       </ThemeProvider>
     </>
   )

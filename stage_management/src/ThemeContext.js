@@ -14,8 +14,7 @@ export function useTheme() {
 
 // custom hook to update to the value of the state
 export function useThemeUpdate() {
-    //return useContext(ThemeUpdateContext);
-    return useContext(ThemeContext);
+    return useContext(ThemeUpdateContext);
 }
 
 export function ThemeProvider({ children }) {
@@ -35,10 +34,9 @@ export function ThemeProvider({ children }) {
 
     return (
         <ThemeContext.Provider value={darkTheme}>
-            <ThemeContext.Provider value={toggleTheme}>
-                es igual = {darkTheme}
+            <ThemeUpdateContext.Provider value={toggleTheme}>
                 {children}
-            </ThemeContext.Provider>
+            </ThemeUpdateContext.Provider>
         </ThemeContext.Provider>
     )
 }
