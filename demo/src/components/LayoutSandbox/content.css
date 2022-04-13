@@ -1,0 +1,196 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: #f0f2f5;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+}
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+[data-theme='dark'] .site-layout-content {
+  background: #141414;
+}
+
+#content-layout {
+  margin: 24px 16px;
+  padding: 24px;
+  min-height: 580px;
+}
+
+div.ant-card-body {
+  min-height: 161px;
+}
+
+.card-title {
+  color: #97A4BA;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+
+}
+
+.chart-card-title {
+    color: #97A4BA;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.whole-card {
+  min-height: 247px;
+  min-width: 308px;
+}
+
+#final-card {
+  min-height: 247px;
+}
+
+.chart-card-statistic {
+  height: 38px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 30px;
+  line-height: 38px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.card-bottom {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.strat-row-titles {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: #67758d;
+}
+
+.ant-descriptions-item-label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ant-descriptions-bordered .ant-descriptions-view {
+  border: 1px solid white;
+}
+
+.ant-descriptions-bordered .ant-descriptions-row {
+  border-bottom: 1px solid white;
+}
+
+.ant-descriptions-bordered .ant-descriptions-item-label {
+  background-color: white;
+}
+
+.ant-descriptions-item-content {
+  font-size: 24px;
+  text-align: center;
+}
+
+#strat-div {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.cm-card-row {
+  max-height: 102px;
+}
+
+#campaign-header {
+  font-size: 22px;
+  font-weight: 700;
+  color: #67758d;
+}
+
+#campaign-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3491f8;
+}
+
+#campaign-revenue {
+  color: #f6ae2d !important;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+#left-value {
+  margin-left: 65%;
+}
+
+.top-card-row {
+  padding: '8px 0';
+}
+
+.campaign-card-title {
+  font-size: 22px;
+  color: #97A4BA;
+  font-weight: 500;
+}
+
+.campaign-card-row {
+  max-height: 120px;
+}
+
+.mini-card {
+  max-height: 110px;
+}
+
+.mini-card-title {
+  font-size: 16px;
+  color: #97A4BA;
+  font-weight: 500;
+}
+
+.mini-card-stat {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#progress-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #67758D;
+  text-align: start;
+}
+
+#progress-statistic {
+  font-size: 28px;
+  color: #67758D;
+  text-align: center;
+}
+
+#campaign-section-title {
+  color: #97A4BA;
+  font-size: 24px;
+}
+
+.panel-header>h2 {
+  text-align: center;
+  color: #67758D;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#brand-awareness {
+  border: 1px solid #3491F8;
+}
